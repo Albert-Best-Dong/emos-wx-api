@@ -3,7 +3,6 @@ package com.example.emos.wx.config.shiro;
 import org.apache.shiro.authc.AuthenticationToken;
 import org.springframework.stereotype.Component;
 
-@Component
 public class OAuth2Token implements AuthenticationToken {
 
     private String token;
